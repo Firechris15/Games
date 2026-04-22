@@ -1,0 +1,27 @@
+.tetris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(0, 150, 255, 1) 0%, rgba(255, 0, 255, 1) 100%);
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.tetris-board {
+    width: 300px;
+    height: 600px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .tetris-board {
+        width: 80%;
+        height: 80vh;
+    }
+}
